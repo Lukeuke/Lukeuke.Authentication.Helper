@@ -1,3 +1,6 @@
+# Jwt bearer helper package
+Feel free to contribute
+
 ## Examples of use
 
 ```csharp
