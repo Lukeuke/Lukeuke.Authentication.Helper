@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E4A71A31-A375-418B-9F71-F952B81FCD37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C9250E69-9937-4C1C-A759-5024CDEC33D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lukeuke.Authentication.Jwt", "src\Lukeuke.Authentication.Jwt\Lukeuke.Authentication.Jwt.csproj", "{8BFDB65E-D23B-4933-943A-BE5E4ACEC6A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtGenerateTests", "tests\JwtGenerateTests\JwtGenerateTests.csproj", "{795BA042-4081-4B93-8FA3-AF45EC9CF7BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8BFDB65E-D23B-4933-943A-BE5E4ACEC6A3} = {E4A71A31-A375-418B-9F71-F952B81FCD37}
+		{795BA042-4081-4B93-8FA3-AF45EC9CF7BA} = {C9250E69-9937-4C1C-A759-5024CDEC33D1}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BFDB65E-D23B-4933-943A-BE5E4ACEC6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFDB65E-D23B-4933-943A-BE5E4ACEC6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFDB65E-D23B-4933-943A-BE5E4ACEC6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFDB65E-D23B-4933-943A-BE5E4ACEC6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795BA042-4081-4B93-8FA3-AF45EC9CF7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795BA042-4081-4B93-8FA3-AF45EC9CF7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795BA042-4081-4B93-8FA3-AF45EC9CF7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795BA042-4081-4B93-8FA3-AF45EC9CF7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
